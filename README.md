@@ -12,18 +12,18 @@ Threading:
 
 Pros:
 * Low overhead
-Efficient communication and coordination between threads
-Fine-grained control over execution
+* Efficient communication and coordination between threads
+* Fine-grained control over execution
 Cons:
-Limited scalability due to shared memory space
-Susceptible to race conditions and deadlocks
+* Limited scalability due to shared memory space
+* Susceptible to race conditions and deadlocks
 Multiprocessing:
 
 Pros:
-High performance and parallelism
-Scalability due to separate memory spaces
-Robustness against race conditions and deadlocks
+* High performance and parallelism
+* Scalability due to separate memory spaces
+* Robustness against race conditions and deadlocks
 Cons:
-High overhead due to IPC mechanisms
-Limited communication and coordination between processes
-Difficult to manage and debug multiple processes
+* High overhead due to IPC mechanisms
+* Limited communication and coordination between processes
+* Difficult to manage and debug multiple processes
